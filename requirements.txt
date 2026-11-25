@@ -1,0 +1,12 @@
+# Python dependencies. Use jobs/setup_sparsespec_orcd.sh for CUDA/native libraries.
+# The editable dependency below requires the pinned checkout created by setup.
+torch==2.8.0
+transformers==4.55.2
+huggingface-hub>=0.34,<1
+safetensors>=0.5,<1
+setuptools>=77.0.3,<80
+setuptools-scm>=8
+wheel
+packaging>=24.2
+ninja
+-e ./third_party/SparseSpec

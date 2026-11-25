@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+third_party/
+.conda-sparsespec/
+.cache/
+models/
+logs/
